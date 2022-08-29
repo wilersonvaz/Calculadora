@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/calculadoraBasica"
+        android:title="Calculadora basica"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/calculadoraAvancada"
+        android:title="Calculadora Avancada"
+        app:showAsAction="never" />
+</menu>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="tamanho_teclas">60dp</dimen>
+    <dimen name="padding_teclas">15dp</dimen>
+    <dimen name="margin_teclas">5dp</dimen>
+    <dimen name="text_size_teclas">20dp</dimen>
+
+
+    <dimen name="tamanho_teclas_calc_av">50dp</dimen>
+    <dimen name="padding_teclas_calc_av">10dp</dimen>
+    <dimen name="margin_teclas_calc_av">5dp</dimen>
+    <dimen name="text_size_teclas_calc_av">20dp</dimen>
+</resources>

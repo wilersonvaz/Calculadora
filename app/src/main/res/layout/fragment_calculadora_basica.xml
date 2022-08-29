@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CalculadoraBasica">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:layout_width="@dimen/tamanho_teclas"
+            android:layout_height="@dimen/tamanho_teclas"
+            android:text="÷"
+            android:textAlignment="center"
+            android:padding="@dimen/padding_teclas"
+            android:layout_margin="@dimen/margin_teclas"
+            android:textSize="@dimen/text_size_teclas"
+            android:background="@drawable/rounded_corner"
+            android:onClick="onClick"/>
+
+        <TextView
+            android:layout_width="@dimen/tamanho_teclas"
+            android:layout_height="@dimen/tamanho_teclas"
+            android:text="X"
+            android:textAlignment="center"
+            android:padding="@dimen/padding_teclas"
+            android:layout_margin="@dimen/margin_teclas"
+            android:textSize="@dimen/text_size_teclas"
+            android:background="@drawable/rounded_corner"
+            android:onClick="onClick"/>
+
+        <TextView
+            android:layout_width="@dimen/tamanho_teclas"
+            android:layout_height="@dimen/tamanho_teclas"
+            android:text="-"
+            android:textAlignment="center"
+            android:padding="@dimen/padding_teclas"
+            android:layout_margin="@dimen/margin_teclas"
+            android:textSize="@dimen/text_size_teclas"
+            android:background="@drawable/rounded_corner"
+            android:onClick="onClick"/>
+
+        <TextView
+            android:layout_width="@dimen/tamanho_teclas"
+            android:layout_height="@dimen/tamanho_teclas"
+            android:text="+"
+            android:textAlignment="center"
+            android:padding="@dimen/padding_teclas"
+            android:layout_margin="@dimen/margin_teclas"
+            android:textSize="@dimen/text_size_teclas"
+            android:background="@drawable/rounded_corner"
+            android:onClick="onClick"/>
+
+        <TextView
+            android:layout_width="@dimen/tamanho_teclas"
+            android:layout_height="@dimen/tamanho_teclas"
+            android:text="="
+            android:textAlignment="center"
+            android:padding="@dimen/padding_teclas"
+            android:layout_margin="@dimen/margin_teclas"
+            android:textSize="@dimen/text_size_teclas"
+            android:background="@drawable/rounded_corner_igualdade"
+            android:textColor="@color/white"
+            android:onClick="onClick"/>
+<!--        <ImageButton-->
+<!--            android:id="@+id/imageButtonDivisao"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:src="@android:drawable/ic_input_add" />-->
+<!--        <ImageButton-->
+<!--            android:id="@+id/imageButtonMultiplicacao"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:src="@android:drawable/ic_input_add" />-->
+<!--        <ImageButton-->
+<!--            android:id="@+id/imageButtonSubtracao"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:src="@android:drawable/ic_input_add" />-->
+<!--        <ImageButton-->
+<!--            android:id="@+id/imageButtonSoma"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:src="@android:drawable/ic_input_add" />-->
+<!--        <ImageButton-->
+<!--            android:id="@+id/imageButtonResultado"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:src="@android:drawable/ic_input_add" />-->
+    </LinearLayout>
+</FrameLayout>
