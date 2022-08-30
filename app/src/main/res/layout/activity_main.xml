@@ -30,7 +30,8 @@
                 android:textSize="30dip"
                 android:paddingTop="20dp"
                 android:paddingRight="@dimen/padding_teclas"
-                android:textAlignment="viewEnd"/>
+                android:textAlignment="viewEnd"
+                android:textColor="@color/resultado"/>
         </LinearLayout>
 
         <LinearLayout
@@ -57,7 +58,7 @@
                         android:paddingRight="@dimen/padding_teclas"
                         android:text=""
                         android:textAlignment="viewEnd"
-                        android:textColor="@color/backgroungTeclas"
+                        android:textColor="@color/resultado"
                         android:textSize="25dip"
                         android:textStyle="bold" />
                 </LinearLayout>

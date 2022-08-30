@@ -10,4 +10,9 @@
         android:id="@+id/calculadoraAvancada"
         android:title="Calculadora Avancada"
         app:showAsAction="never" />
+
+    <item
+        android:id="@+id/ajuda"
+        android:title="Ajuda"
+        app:showAsAction="never" />
 </menu>

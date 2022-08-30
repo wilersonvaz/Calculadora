@@ -11,4 +11,5 @@
     <color name="backgroungIgualdade">#3CB371</color>
     <color name="limpar">#FF0000</color>
     <color name="gray">#C0C0C0</color>
+    <color name="resultado">#708090</color>
 </resources>

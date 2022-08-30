@@ -5,9 +5,10 @@
       <map>
         <entry key="app/src/main/res/drawable/rounded_corner.xml" value="0.1045" />
         <entry key="app/src/main/res/drawable/rounded_corner_igualdade.xml" value="0.1765" />
+        <entry key="app/src/main/res/layout/activity_ajuda.xml" value="0.1" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.21727748691099477" />
-        <entry key="app/src/main/res/layout/fragment_calculadora_avancada.xml" value="0.22" />
-        <entry key="app/src/main/res/layout/fragment_calculadora_basica.xml" value="0.2234375" />
+        <entry key="app/src/main/res/layout/fragment_calculadora_avancada.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/fragment_calculadora_basica.xml" value="0.1" />
         <entry key="app/src/main/res/menu/menu_principal.xml" value="0.22239583333333332" />
       </map>
     </option>
