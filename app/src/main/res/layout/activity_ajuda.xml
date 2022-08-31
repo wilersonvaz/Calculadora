@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Ajuda"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_margin="@dimen/margin_teclas"
+        android:background="@color/gray" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/margin_teclas"
+        android:textColor="@color/resultado"
+        android:textSize="@dimen/text_size_teclas"
+        android:text="Adiçao: 5+5"
+        android:paddingLeft="@dimen/text_size_teclas"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/margin_teclas"
+        android:textColor="@color/resultado"
+        android:textSize="@dimen/text_size_teclas"
+        android:text="Subtraçao: 5-5"
+        android:paddingLeft="@dimen/text_size_teclas"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/margin_teclas"
+        android:textColor="@color/resultado"
+        android:textSize="@dimen/text_size_teclas"
+        android:text="Multiplicaçao: 5X5"
+        android:paddingLeft="@dimen/text_size_teclas"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/margin_teclas"
+        android:textColor="@color/resultado"
+        android:textSize="@dimen/text_size_teclas"
+        android:text="Divisao: 5÷5"
+        android:paddingLeft="@dimen/text_size_teclas"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/margin_teclas"
+        android:textColor="@color/resultado"
+        android:textSize="@dimen/text_size_teclas"
+        android:text="Raiz: √5"
+        android:paddingLeft="@dimen/text_size_teclas"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/margin_teclas"
+        android:textColor="@color/resultado"
+        android:textSize="@dimen/text_size_teclas"
+        android:text="Exponencial: 5^5"
+        android:paddingLeft="@dimen/text_size_teclas"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/margin_teclas"
+        android:textColor="@color/resultado"
+        android:textSize="@dimen/text_size_teclas"
+        android:text="Porcentagem: 5%5 (5 por cento de 5)"
+        android:paddingLeft="@dimen/text_size_teclas"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/margin_teclas"
+        android:textColor="@color/resultado"
+        android:textSize="@dimen/text_size_teclas"
+        android:text="Expressoes mais complexas:\n((4 - 2^3 + 1) X -√(3*3+4*4)) / 2"
+        android:paddingLeft="@dimen/text_size_teclas"
+        android:layout_marginBottom="10dp"/>
+
+
+</LinearLayout>
